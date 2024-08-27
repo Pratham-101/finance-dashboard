@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1c0728;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.left-section, .right-section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.left-section {
+    background: #ffffff;
+}
+
+.right-section {
+    background: #eef4ff;
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.signin-form h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.signin-form p {
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.signin-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.signin-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-forgot label {
+    display: flex;
+    align-items: center;
+}
+
+.remember-forgot input {
+    margin-right: 5px;
+}
+
+.remember-forgot a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2773a5;
+}
+
+.social-signin {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.social-signin button {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.social-signin button.google {
+    border-color: #db4437;
+    color: #db4437;
+}
+
+.social-signin button.facebook {
+    border-color: #4267b2;
+    color: #4267b2;
+}
+
+.signup {
+    text-align: center;
+}
+
+.signup a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+.right-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.right-section h1 span {
+    color: #3498db;
+}
+
+.right-section p {
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.sales-report {
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid rgb(0, 106, 255);
+}
